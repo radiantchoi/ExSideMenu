@@ -88,12 +88,6 @@ extension ContainerViewController: SideMenuDelegate {
         case let .embed(vc):
             updateRootViewController(vc)
             sideMenuViewController.hide()
-        case let .push(vc):
-            sideMenuViewController.hide()
-            navigator.pushViewController(vc, animated: true)
-        case let .modal(vc):
-            sideMenuViewController.hide()
-            navigator.present(vc, animated: true, completion: nil)
         }
     }
 }
