@@ -33,20 +33,3 @@ final class SettingsViewController: ContentViewController {
         title = "Settings"
     }
 }
-
-final class AboutViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .blue
-        title = "About Us"
-    }
-}
-
-
-final class MyAccountViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .magenta
-        title = "My Account"
-    }
-}
